@@ -4,7 +4,6 @@ body {
 }
 
 footer {
-    
     background-color: #F0F6F6;
 }
 
@@ -13,9 +12,28 @@ footer {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.card p {
+    font-size: larger;
+}
+
+.display-1 {
+    font-family: 'Nuninto', sans-serif;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 75%;
+}
+
 .navbar-brand,
 .nav-link {
     font-family: 'Kalam', cursive;
     font-size: x-large;
     color: #4D5061;
+}
+
+a {
+    text-decoration: none;
 }
